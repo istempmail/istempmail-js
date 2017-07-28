@@ -1,0 +1,27 @@
+{
+  "name": "istempmail",
+  "version": "1.0.0",
+  "description": "IsTempMail API client library for Node.js",
+  "main": "istempmail.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/istempmail/istempmail-js.git"
+  },
+  "keywords": [
+    "istempmail",
+    "temporary email",
+    "disposable email"
+  ],
+  "author":{
+   "name": "Nguyen An Thuan",
+   "email":"nguyenanthuan@gmail.com"
+  },
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/istempmail/istempmail-js/issues"
+  },
+  "homepage": "https://github.com/istempmail/istempmail-js",
+  "dependencies": {
+    "request": "^2.69.0"
+  }
+}
