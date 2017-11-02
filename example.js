@@ -1,8 +1,6 @@
 var IsTempMail = require('./istempmail.js');
 
-// if you have API token, use
-// var validator = new IsTempMail("INSERT_TOKEN_HERE");
-var validator = new IsTempMail();
+var validator = new IsTempMail("INSERT_TOKEN_HERE");
 
 var tests = ['test@mailinator.com', 'invalid', '10minutemail.com', 'gmail.com', 'gmail.con'];
 

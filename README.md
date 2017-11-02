@@ -2,12 +2,11 @@
 Node.js library to check disposable email address using IsTempMail API.
 
 ## How to use
+To get your API token, register at [IsTempMail](https://www.istempmail.com/sign-up), select a plan and copy your API token there.
     
     var IsTempMail = require('./istempmail.js');
     
-    // if you have API token, use
-    // var validator = new IsTempMail("INSERT_TOKEN_HERE");
-    var validator = new IsTempMail();
+    var validator = new IsTempMail("INSERT_TOKEN_HERE");
     
     var tests = ['test@mailinator.com', 'invalid', '10minutemail.com', 'gmail.com', 'gmail.con'];
     
