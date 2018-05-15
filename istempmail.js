@@ -16,7 +16,7 @@ function IsTempMail(token) {
      * @param callback function(error, result), error and result are objects.
      */
     this.check = function (email, callback) {
-        var apiUrl = 'https://www.istempmail.com/api/check/' + email + '?token=' + token;
+        var apiUrl = 'https://www.istempmail.com/api/check/' + token + '/' + email;
 
         request(apiUrl, function (error, response, body) {
             if (!error && response.statusCode === 200) {
