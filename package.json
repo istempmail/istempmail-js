@@ -1,6 +1,6 @@
 {
   "name": "istempmail",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "IsTempMail API client library for Node.js",
   "main": "istempmail.js",
   "repository": {
