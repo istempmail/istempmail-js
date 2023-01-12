@@ -12,11 +12,11 @@
     "temporary email",
     "disposable email"
   ],
-  "author":{
-   "name": "Nguyen An Thuan",
-   "email":"nguyenanthuan@gmail.com"
+  "author": {
+    "name": "Gregor Nobis",
+    "email": "nobis.gregor@gmail.com"
   },
-  "license": "GPLv3",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/istempmail/istempmail-js/issues"
   },
