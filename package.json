@@ -10,7 +10,8 @@
   "keywords": [
     "istempmail",
     "temporary email",
-    "disposable email"
+    "disposable email",
+    "detect fake email"
   ],
   "author": {
     "name": "Gregor Nobis",
